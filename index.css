@@ -14,20 +14,25 @@ body{
     background:black;
     display:grid;
     place-items:center;
-    color:whitesmoke;
+    color:#333;
 }
 
 h1{
     font-size:8rem;
-    text-shadow: 0 0 41px whitesmoke;
-    font-smooth: 4em always;
+    text-shadow: 0 0 1rem #888;
+    font-smooth: always;
 }
 
-#content{
+#iframe, #tags{
     width:100vw;
     height:100vh;
     background-color: orangered;
     position:absolute;
     left:-100vw;
     transition:all 1s ease-in-out;
+}
+#tags{
+    background-color: olivedrab;
+    display:grid;
+    place-items: center;
 }
